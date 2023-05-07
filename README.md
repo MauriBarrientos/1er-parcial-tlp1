@@ -8,4 +8,3 @@ Descripción del proyecto:
 # Página de Formación Académica y Profesional
 # Página de Proyectos
 # Página de Contacto
-
