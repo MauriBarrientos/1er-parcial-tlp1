@@ -1,3 +1,6 @@
+.imgppal{
+    border-radius: 100%;
+}
 .divmayor{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -9,3 +12,24 @@
     border-radius:3%;
     margin: 3%;
 }
+ .col{
+    display: grid;
+    justify-content: center;
+ }
+
+.titulocontacto, h2{
+    display: grid;
+    text-align: start;
+    margin-top: 20px;
+}
+
+.logossocial, .logomensajes{
+    display: flex;
+    flex-flow: row;
+    justify-content:space-around;
+}
+
+.github, .linkedin, .mail, .whatsapp{
+    font-size: 100px;
+}
+
