@@ -1,26 +1,33 @@
-.titulonombre{
-    font-size: 7rem;
-}
+/* Cambios del fondo */
 body{
     background-image: url(fondoportfolio.png);
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
 }
-.imgppal{
-    border-radius: 100%;
+
+.row{
+    display: flex;
+    flex-flow: row;
+    justify-content:space-around;
 }
-/* .divmayor{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 3%;
-} */
- 
+
+
+ /* CSS Projects*/
+ .img{
+    width: 100px;
+}
+
+.cardproject{
+    max-width: 300px;
+    max-height: 500px;
+}
+
  .col{
     display: grid;
     justify-content: center;
  }
 
+ /*CSS Contact */
 .titulocontacto, h2{
     display: grid;
     text-align: start;
@@ -35,8 +42,4 @@ body{
 
 .github, .linkedin, .mail, .whatsapp{
     font-size: 100px;
-}
-
-.cardproject{
-    max-width: 500px;
 }
